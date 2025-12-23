@@ -1,15 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
-    <link href="/src/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <title>apple</title>
 </head>
-<body>
 
-    
+<body>
+    <header>
+        <nav>
+            <div class="w-min-auto h-[44px] bg-[#F5F5F7CC] ">
+                <ul class="flex w-[1000px] h-[44px] justify-between mx-auto items-center ">
+                    <li><a href=""><i class="fa-brands fa-apple text-[17px] "></i></a></li>
+                    <li class="group">
+                        <a href="">Store</a>
+                        <section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+                            <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+                                <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                                    <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop</h2>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Shop
+                                                Gifts</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mac</a>
+                                        </li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad</a>
+                                        </li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                                href="">iPhone</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple
+                                                Watch</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple
+                                                Vision Pro</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                                href="">AirPods</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Accessories</a></li>
+                                    </div>
+                                    <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Quik Links</h2>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Find a
+                                                Store</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Order
+                                                Status</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple
+                                                Trade in</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Financing</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal
+                                                Setup</a></li>
+                                    </div>
+                                    <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop Special Store</h2>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Certified
+                                                Refurbished</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Education</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Business</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Veterans
+                                                and Military</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Government</a></li>
+                                    </div>
+                                </section>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="group">
+                    <a href="">Mac</a>
+                    <section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+                        <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+                            <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                                <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop</h2>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                                        Explore All Mac</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mavbook Air</a>
+                                    </li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">MacBook Pro</a>
+                                    </li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">iMac</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mac Mini
+                                            </a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mac Studio
+                                            </a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Mac Pro</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Displays</a></li>
+                                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Compare Mac</h2>
+                                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Switch from PC to Mac</h2>
+                                </div>
+                                <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop Mac</h2>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop Mac
+                                            </a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Help Me Choose
+                                            </a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Mac Accessories</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Apple Trade In</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Financing</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal Setup</a></li>
+                                </div>
+                                <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">More from Mac</h2>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Mac Support</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">AppleCare</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">macOs Tahoe</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Intelligence</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Apps by Apple</a></li>
+                                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Better with iPhone</a></li>
+                                                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                    href="">iCloud+</a></li>
+                                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                        href="">Mac for Business</a></li>
+                                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                            href="">Education</a></li>
+                                </div>
+                            </section>
+                        </ul>
+                    </section>
+                </li>
+                    <li class="group">
+                    <a href="">iPad</a>
+                    <section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+                        <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+                            <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                                <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore iPad</h2>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                                        Explore All Ipad</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad Pro</a>
+                                    </li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad Air</a>
+                                    </li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">iPad</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad mini
+                                            </a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple Pencil
+                                            </a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">keyboards</a></li>
+                                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Compare iPad</h2>
+                                </div>
+                                <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop iPad</h2>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop iPad
+                                            </a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">iPad Accessories
+                                            </a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Trade In</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Apple Trade In</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Financing</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal Setup</a></li>
+                                </div>
+                                <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">More from iPad</h2>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">iPad Support</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">AppleCare</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">iPadOS 26</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Intelligence</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Apps by Apple</a></li>
+                                                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                    href="">iCloud+</a></li>
+                                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                            href="">Education</a></li>
+                                </div>
+                            </section>
+                        </ul>
+                    </section>
+            </li>
+             <li class="group">
+            <a href="">iPhone</a>
+            <section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+                <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+                    <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                        <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore iPhone</h2>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                                Explore All iPhone</a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPhone 17 Pro</a>
+                            </li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPone Air</a>
+                            </li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                    href="">iPhone 17</a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPhone 16
+                                    </a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPhone 16e
+                                    </a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                    href="">keyboards</a></li>
+                                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Compare iPhone</h2>
+                        </div>
+                        <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop iPhone</h2>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop iPad
+                                    </a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">shop iPhone
+                                    </a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">iPhone Accessories</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                    href="">Apple Trade In</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Carrier Deals at Apple</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Financing</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal Setup</a></li>
+                        </div>
+                        <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                            <h2 class="text-[12px] text-[#6E6E73] font-sans">More from iPhone</h2>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">iPad Support</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                    href="">AppleCare</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                    href="">IOS 26</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Intelligence</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                    href="">Apps by Apple</a></li>
+                                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                            href="">iPhone Privacy</a></li>
+                                                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                    href="">iCloud+</a></li>
+                                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                                        href="">Education</a></li>
+                        </div>
+                    </section>
+                </ul>
+            </section>
+        </li>
+        <li class="group">
+        <a href="">Watch</a>
+        <section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+            <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+                <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                    <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Watch</h2>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                            Explore All Apple Watch</a></li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch Serries 11</a>
+                        </li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPone Watch SE 3</a>
+                        </li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apple Watch Ultra</a></li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch Nike
+                                </a></li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch hermes
+                                </a></li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                href="">keyboards</a></li>
+                                <h2 class="text-[12px] text-[#6E6E73] font-sans">Compare Watch</h2>
+                                <h2 class="text-[12px] text-[#6E6E73] font-sans">Why Apple Watch</h2>
+                    </div>
+                    <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop Watch</h2>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop Apple Watch
+                                </a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch Bands
+                                </a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch Accessories</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apple Trade In</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Financing</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal Setup</a></li>
+                    </div>
+                    <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">More from Watch</h2>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch Support</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">AppleCare</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">watchOS 26</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Watch For Your Kids</a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apps by Apple</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                        href="">Apple Fitness+</a></li>
+                    </div>
+                </section>
+            </ul>
+        </section>
+    </li>
+   <li class="group">
+    <a href="">Vision</a>
+    <section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+        <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+            <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Vision</h2>
+                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                        Explore All Apple  Vision Pro</a></li>
+                            <h2 class="text-[12px] text-[#6E6E73] font-sans">Tech Specs</h2>
+                </div>
+                <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop Vision</h2>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop Apple Vision Pro
+                            </a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Vision Pro Accessories
+                            </a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Book a Demo</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                            href="">Apple Trade In</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Financing</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Personal Setup</a></li>
+                </div>
+                <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                    <h2 class="text-[12px] text-[#6E6E73] font-sans">More from Vision</h2>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Vision Pro Support</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                            href="">AppleCare</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                            href="">VisionOS 26</a></li>
+                </div>
+            </section>
+        </ul>
+    </section>
+</li>
+<li class="group">
+<a href="">AirPods</a>
+<section class="dropdown-Mac hidden group-hover:block absolute left-0 w-full ">
+    <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+        <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+            <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore AirPods</h2>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">
+                    Explore All Airpods</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Airpods 4</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Airpods Pro 3</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">AirPods Max</a></li>
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Compare AirPods</h2>
+            </div>
+            <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop AirPods</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop AirPods
+                        </a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">AirPods Accessories
+                        </a></li>
+            </div>
+            <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">More from AirPods</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">AirPods Support</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">AppleCare</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Hearing Health</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Music</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apple Fitness+</a></li>
+            </div>
+        </section>
+    </ul>
+</section>
+</li>
+<li class="group">
+<a href="">TV & Home</a>
+<section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+    <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+        <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+            <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore TV & Home</h2>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Explore TV & Home</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple TV 4k</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">HomePod</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">HomePod mini</a></li>
+            </div>
+            <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop TV & Home</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop Apple TV 4k</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop HomePod</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Shop HomePod mini</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Shop Siri Remote</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">TV & Home Accessories</a></li>
+            </div>
+            <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">More from TV & Home</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple TV Support</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">AppleCare for Apple TV</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">AppleCare for HomePod</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple TV app</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Apple TV </a></li>
+                        <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                            href="">Home app</a></li>
+                            <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apple Music</a></li>
+                                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                    href="">Siri</a></li>
+                                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                                        href="">AirPlay</a></li>
+            </div>
+        </section>
+    </ul>
+</section>
+</li>
+<li class="group">
+    <a href="">Entertainment</a>
+    <section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+        <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+            <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+                <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Entertainment</h2>
+                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Explore Entertainment</a></li>
+                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple One</a>
+                    </li>
+                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple Music</a>
+                    </li>
+                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                            href="">Apple Arcade</a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                href="">Apple Fitness+</a></li>
+                                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                    href="">Apple News+</a></li>
+                                    <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                        href="">Apple Podcasts</a></li>
+                                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                            href="">Apple Books</a></li>
+                                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                                href="">Apple Store</a></li>
+                </div>
+                <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                    <h2 class="text-[12px] text-[#6E6E73] font-sans">Support</h2>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple TV Support</a></li>
+                    <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Apple Music Support</a></li>
+                </div>
+            </section>
+        </ul>
+    </section>
+    </li>
+<li class="group">
+<a href="">Accessories</a>
+<section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+    <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+        <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+            <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Shop All Accessories</h2>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mac</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPhone</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">Apple Watch</a></li>
+                        <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                            href="">Apple Vision Pro</a></li>
+                            <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                                href="">Airpods</a></li>
+            </div>
+            <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Accessories</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Made by Apple</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Beats</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Airtag</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Assostive Technologies</a></li>
+            </div>
+        </section>
+    </ul>
+</section>
+</li>
+<li class="group">
+<a href="">Support</a>
+<section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+    <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+        <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+            <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Support</h2>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPhone</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Mac</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">Watch</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple
+                        Vision Pro</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">AirPods</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">Music</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">TV</a></li>
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Support</h2>
+            </div>
+            <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Get Help</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Coimmunity</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Check Converage</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Genius Bar</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Repair</a></li>
+            </div>
+            <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Helpful Topics</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Get AppleCare</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Apple Account and Password</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Biling & Subscriptions</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Accessibility</a></li>
+            </div>
+        </section>
+    </ul>
+</section>
+</li>
+<li class="group">
+<a href=""><i class="fa-solid fa-magnifying-glass text-[17px]"></i></a>
+<section class="dropdown-store hidden group-hover:block absolute left-0 w-full ">
+    <ul class="absolute w-full bg-green-600 left-0 min-h-[124px] ">
+        <section class="childcontainer flex w-[1024px] h-[446px] mx-auto bg-red-400 mt-[40px]">
+            <div class="first-child min-w-[177px]   bg-yellow-400 pr-[88px] ">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Quick Links</h2>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Shop Gifts</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Find</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">iPad</a>
+                </li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">Watch</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">Apple
+                        Vision Pro</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a href="">AirPods</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">Music</a></li>
+                <li class="text-[26px] text-[#333336] font-sans font-[600]"><a
+                        href="">TV</a></li>
+                        <h2 class="text-[12px] text-[#6E6E73] font-sans">Explore Support</h2>
+            </div>
+            <div class="secound-child min-w-[87px] bg-purple-600 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Get Help</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Coimmunity</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Check Converage</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Genius Bar</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Repair</a></li>
+            </div>
+            <div class="third-child min-w-[124px] bg-orange-400 pr-[44px]">
+                <h2 class="text-[12px] text-[#6E6E73] font-sans">Helpful Topics</h2>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Get AppleCare</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Apple Account and Password</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a
+                        href="">Biling & Subscriptions</a></li>
+                <li class="text-[12px] text-[#333336] font-sans font-[600]"><a href="">Accessibility</a></li>
+            </div>
+        </section>
+    </ul>
+</section>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href=""><i class="fa-solid fa-shop text-[17px]"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
 </body>
+
 </html>
